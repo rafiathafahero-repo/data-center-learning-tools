@@ -1,0 +1,263 @@
+[
+  {
+    "tool": "Availability",
+    "case": "2 units p=0",
+    "actual": 0,
+    "expected": 0,
+    "result": "PASS"
+  },
+  {
+    "tool": "Availability",
+    "case": "3 units p=0",
+    "actual": 0,
+    "expected": 0,
+    "result": "PASS"
+  },
+  {
+    "tool": "Availability",
+    "case": "2 units p=0.5",
+    "actual": 0.75,
+    "expected": 0.75,
+    "result": "PASS"
+  },
+  {
+    "tool": "Availability",
+    "case": "3 units p=0.5",
+    "actual": 0.875,
+    "expected": 0.875,
+    "result": "PASS"
+  },
+  {
+    "tool": "Availability",
+    "case": "2 units p=0.85",
+    "actual": 0.9775,
+    "expected": 0.9775,
+    "result": "PASS"
+  },
+  {
+    "tool": "Availability",
+    "case": "3 units p=0.85",
+    "actual": 0.996625,
+    "expected": 0.996625,
+    "result": "PASS"
+  },
+  {
+    "tool": "Availability",
+    "case": "2 units p=0.95",
+    "actual": 0.9974999999999999,
+    "expected": 0.9974999999999999,
+    "result": "PASS"
+  },
+  {
+    "tool": "Availability",
+    "case": "3 units p=0.95",
+    "actual": 0.999875,
+    "expected": 0.999875,
+    "result": "PASS"
+  },
+  {
+    "tool": "Availability",
+    "case": "2 units p=1",
+    "actual": 1,
+    "expected": 1,
+    "result": "PASS"
+  },
+  {
+    "tool": "Availability",
+    "case": "3 units p=1",
+    "actual": 1,
+    "expected": 1,
+    "result": "PASS"
+  },
+  {
+    "tool": "Availability",
+    "case": "8-layer serial system baseline",
+    "actual": 0.5986697206181423,
+    "expected": 0.5986697206181423,
+    "result": "PASS"
+  },
+  {
+    "tool": "Availability",
+    "case": "Expected annual downtime baseline",
+    "actual": 3515.653247385074,
+    "expected": 3515.653247385074,
+    "result": "PASS"
+  },
+  {
+    "tool": "Readiness",
+    "case": "Unassessed has no total score",
+    "actual": null,
+    "expected": null,
+    "result": "PASS"
+  },
+  {
+    "tool": "Readiness",
+    "case": "Blank count assessed",
+    "actual": 0,
+    "expected": 0,
+    "result": "PASS"
+  },
+  {
+    "tool": "Readiness",
+    "case": "Eligible excludes N/A",
+    "actual": 29,
+    "expected": 29,
+    "result": "PASS"
+  },
+  {
+    "tool": "Readiness",
+    "case": "Assessed count",
+    "actual": 3,
+    "expected": 3,
+    "result": "PASS"
+  },
+  {
+    "tool": "Readiness",
+    "case": "Coverage",
+    "actual": 0.10344827586206896,
+    "expected": 0.10344827586206896,
+    "result": "PASS"
+  },
+  {
+    "tool": "Readiness",
+    "case": "Scoring among assessed",
+    "actual": 0.5,
+    "expected": 0.5,
+    "result": "PASS"
+  },
+  {
+    "tool": "Readiness",
+    "case": "Reset clears score",
+    "actual": "",
+    "expected": null,
+    "result": "PASS",
+    "note": "Blank formula result appears as an empty string, which is accepted as unassessed."
+  },
+  {
+    "tool": "Risk",
+    "case": "Blank scenario shows unassessed",
+    "actual": "Not assessed",
+    "expected": "Not assessed",
+    "result": "PASS"
+  },
+  {
+    "tool": "Risk",
+    "case": "1x5 score",
+    "actual": 5,
+    "expected": 5,
+    "result": "PASS"
+  },
+  {
+    "tool": "Risk",
+    "case": "1x5 class",
+    "actual": "Low",
+    "expected": "Low",
+    "result": "PASS"
+  },
+  {
+    "tool": "Risk",
+    "case": "Summary count Low",
+    "actual": 1,
+    "expected": 1,
+    "result": "PASS"
+  },
+  {
+    "tool": "Risk",
+    "case": "2x3 score",
+    "actual": 6,
+    "expected": 6,
+    "result": "PASS"
+  },
+  {
+    "tool": "Risk",
+    "case": "2x3 class",
+    "actual": "Moderate",
+    "expected": "Moderate",
+    "result": "PASS"
+  },
+  {
+    "tool": "Risk",
+    "case": "Summary count Moderate",
+    "actual": 1,
+    "expected": 1,
+    "result": "PASS"
+  },
+  {
+    "tool": "Risk",
+    "case": "3x5 score",
+    "actual": 15,
+    "expected": 15,
+    "result": "PASS"
+  },
+  {
+    "tool": "Risk",
+    "case": "3x5 class",
+    "actual": "High",
+    "expected": "High",
+    "result": "PASS"
+  },
+  {
+    "tool": "Risk",
+    "case": "Summary count High",
+    "actual": 1,
+    "expected": 1,
+    "result": "PASS"
+  },
+  {
+    "tool": "Risk",
+    "case": "4x5 score",
+    "actual": 20,
+    "expected": 20,
+    "result": "PASS"
+  },
+  {
+    "tool": "Risk",
+    "case": "4x5 class",
+    "actual": "Very High",
+    "expected": "Very High",
+    "result": "PASS"
+  },
+  {
+    "tool": "Risk",
+    "case": "Summary count Very High",
+    "actual": 1,
+    "expected": 1,
+    "result": "PASS"
+  },
+  {
+    "tool": "Risk",
+    "case": "Missing impact prevents score",
+    "actual": "",
+    "expected": null,
+    "result": "PASS",
+    "note": "Blank formula result appears as an empty string, which is accepted as unassessed."
+  },
+  {
+    "tool": "Risk",
+    "case": "Reset clears count",
+    "actual": 0,
+    "expected": 0,
+    "result": "PASS"
+  },
+  {
+    "tool": "Structural",
+    "case": "Re-import 03_Data_Center_Risk_Register_Practice.xlsx",
+    "actual": true,
+    "expected": true,
+    "result": "PASS"
+  },
+  {
+    "tool": "Structural",
+    "case": "Re-import 01_Availability_Redundancy_Calculator.xlsx",
+    "actual": true,
+    "expected": true,
+    "result": "PASS"
+  },
+  {
+    "tool": "Structural",
+    "case": "Re-import 02_Data_Center_Readiness_Self_Assessment.xlsx",
+    "actual": true,
+    "expected": true,
+    "result": "PASS"
+  }
+]
