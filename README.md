@@ -36,8 +36,16 @@ Official references for reading standard classification scope (not a statement o
 - [ISO/IEC 22237](https://www.iso.org/standard/78550.html)
 - [Uptime Institute Tier classification](https://uptimeinstitute.com/tiers)
 
-## Suggested CV wording (honest attribution)
+## LinkedIn & portfolio project description (honest attribution)
 
-> Supplemented Data Center Management training with AI-assisted spreadsheet learning models for simulated infrastructure-readiness checks, qualitative risk prioritization, and idealized availability calculations; verified 37 automated test cases.
+**Data Center Operations — Spreadsheet Learning Tools | Independent, AI-Assisted Learning Project**
 
-The wording identifies this as **supplementary, independent practice**, not an official Inixindo assignment or independently coded production tool.
+Developed an educational portfolio with AI assistance to explore Data Center Operations concepts after completing instructor-led Data Center Management training. The portfolio contains three spreadsheet-based learning tools:
+
+- **Availability & Redundancy Calculator:** Models idealized component redundancy, service-chain availability, and estimated downtime under explicitly stated assumptions.
+- **Data Center Readiness Self-Assessment:** Uses 30 illustrative checks across 10 operational areas to practice assessment coverage and evidence tracking.
+- **Risk Register Practice:** Applies a transparent 5 × 5 likelihood–impact model to fictional scenarios for risk identification and prioritization.
+
+The repository includes documented assumptions, spreadsheet previews, example scenarios, and automated test results (**37/37 assertions passed**). The workbooks and programmatic tests were developed with an AI assistant at my request; this is an educational exercise using synthetic data, **not** independently coded production software, an official Inixindo assignment, an ISO/IEC compliance audit, or evidence of operating a live data center.
+
+**Focus areas:** Data Center Fundamentals · Availability & Redundancy · Risk Assessment · Operational Readiness · Spreadsheet Modeling · Technical Documentation
